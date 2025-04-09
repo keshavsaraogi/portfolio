@@ -12,22 +12,29 @@ const Hero = () => {
 
                 <div className="hero-right">
                     <h1 className="hero-title">
-                        Hi, I'm <span className="highlight">YourName</span> <span className="wave">👋</span>
+                        Hi, I'm <span className="highlight">YourName</span>
+                        <span role="img" aria-label="waving hand" className="emoji">👋</span>
                     </h1>
                     <h2 className="hero-subtitle">I'm a Full Stack Developer.</h2>
 
                     <ul className="hero-details">
-                        <li>☕ Fueled by coffee</li>
-                        <li>🌎 Based in the US</li>
-                        <li>💻 Systems Engineer at Google</li>
-                        <li>✉️ yourname@gmail.com</li>
+                        <li>
+                            <span role="img" aria-label="coffee" className="emoji">☕</span> Fuled By Coffee
+                        </li>
+                        <li>
+                            <span role="img" aria-label="globe" className="emoji">🌎</span> Based in India
+                        </li>
+                        <li>
+                            <span role="img" aria-label="laptop" className="emoji">💻</span> Software Developer Intern at Indorama, Thailand
+                        </li>
+
                     </ul>
 
                     <div className="hero-icons">
-                        <a href="#"><i className="fab fa-github"></i></a>
-                        <a href="#"><i className="fab fa-linkedin"></i></a>
-                        <a href="#"><i className="fab fa-instagram"></i></a>
-                        <a href="#"><i className="fab fa-twitter"></i></a>
+                        <a href="https://github.com/KeshavSaraogi"><i className="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/keshav-saraogi/"><i className="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/iamkeshavsaraogi/"><i className="fab fa-instagram"></i></a>
+                        <a href="mailto:keshavsaraogi04@gmail.com"><i className="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
