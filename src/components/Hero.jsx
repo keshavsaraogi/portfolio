@@ -12,7 +12,7 @@ const Hero = () => {
 
                 <div className="hero-right">
                     <h1 className="hero-title">
-                        Hi, I'm <span className="highlight">YourName</span>
+                        Hi, I'm <span className="highlight">Keshav Saraogi</span>
                         <span role="img" aria-label="waving hand" className="emoji">👋</span>
                     </h1>
                     <h2 className="hero-subtitle">I'm a Full Stack Developer.</h2>

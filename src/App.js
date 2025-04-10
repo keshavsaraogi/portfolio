@@ -1,17 +1,22 @@
 import React from 'react';
-import Navbar from '../src/components/Navbar';
-import Hero from '../src/components/Hero';
-import About from '../src/components/About';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
 import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-    </div>
+      <Routes>
+        <Route path="/" element={<>
+          <Hero />
+        </>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </Router>
   );
 }
 
