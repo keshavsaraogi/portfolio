@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styling/Projects.css';
 import search from '../assets/search-engine.png'
-import math from '../assets/cubes.png'
+import math from '../assets/math.png'
 import reader from '../assets/document-reader.png'
+import database from '../assets/database.png'
+import form from '../assets/contact-form.png'
 
 // Project Data
 const projectList = [
@@ -27,6 +29,21 @@ const projectList = [
         live: "https://document-history-questions.streamlit.app/",
         image: reader,
     },
+    {
+        title: "SQL Query Generator with Streamlit",
+        description: "A SQL query generator using Streamlit and OpenAI's Embeddings and GROQ Inference, allowing users to generate SQL queries from natural language.",
+        github: "https://github.com/KeshavSaraogi/sqldb-chat",
+        live: "https://datbase-chat.streamlit.app/",
+        image: database,
+    },
+    {
+        title: "Document Form Manager MERN Stack",
+        description: "A document form manager using React, NodeJS, MongoDB and Express, allowing users to create and manage forms.",
+        github: "https://github.com/KeshavSaraogi/sqldb-chat",
+        live: "https://datbase-chat.streamlit.app/",
+        image: form,
+    },
+
 ];
 
 const Projects = () => {
