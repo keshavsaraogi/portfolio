@@ -5,6 +5,7 @@ import math from '../assets/math.png'
 import reader from '../assets/document-reader.png'
 import database from '../assets/database.png'
 import form from '../assets/contact-form.png'
+import management from '../assets/management.png'
 
 // Project Data
 const projectList = [
@@ -39,9 +40,16 @@ const projectList = [
     {
         title: "Document Form Manager MERN Stack",
         description: "A document form manager using React, NodeJS, MongoDB and Express, allowing users to create and manage forms.",
-        github: "https://github.com/KeshavSaraogi/sqldb-chat",
-        live: "https://datbase-chat.streamlit.app/",
+        github: "",
+        live: "",
         image: form,
+    },
+    {
+        title: "Inventory Management System MERN Stack",
+        description: "An inventory management system using React, NodeJS, MongoDB and Express, allowing users to manage their inventory.",
+        github: "",
+        live: "",
+        image: management,
     },
 
 ];
