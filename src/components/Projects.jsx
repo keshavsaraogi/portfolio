@@ -40,8 +40,8 @@ const projectList = [
     {
         title: "Document Form Manager MERN Stack",
         description: "A document form manager using React, NodeJS, MongoDB and Express, allowing users to create and manage forms.",
-        github: "",
-        live: "",
+        github: "https://github.com/KeshavSaraogi/form-submission",
+        live: "https://form-submission-nine.vercel.app/",
         image: form,
     },
     {
