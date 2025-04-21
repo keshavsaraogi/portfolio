@@ -121,3 +121,27 @@
 .resume-button:hover {
     background-color: #005f99;
 }
+
+.hero-left {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper {
+    background-color: #f9f9f9;
+    /* Match page background */
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hero-image {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}

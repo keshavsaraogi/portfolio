@@ -7,7 +7,9 @@ const Intro = () => {
         <section className="hero" id="home">
             <div className="hero-container">
                 <div className="hero-left">
-                    <img src={profilePic} alt="Profile" className="hero-image" />
+                    <div className="image-wrapper">
+                        <img src={profilePic} alt="Profile" className="hero-image" />
+                    </div>
                 </div>
 
                 <div className="hero-right">
