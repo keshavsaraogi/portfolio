@@ -3,8 +3,6 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro.jsx';
 import Projects from './components/Projects';
-import { HashRouter as Router } from 'react-router-dom';
-
 
 function App() {
   return (
