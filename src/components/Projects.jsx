@@ -24,11 +24,11 @@ const projectList = [
         image: math,
     },
     {
-        title: "PDF Summarizer with Streamlit",
-        description: "A PDF summarizer using Streamlit and OpenAI's GPT-4, allowing users to upload a PDF and get a summary.",
-        github: "https://github.com/KeshavSaraogi/pdf-query",
-        live: "https://document-history-questions.streamlit.app/",
-        image: reader,
+        title: "SQL Query Generator with Streamlit",
+        description: "A SQL query generator using Streamlit and OpenAI's Embeddings and GROQ Inference, allowing users to generate SQL queries from natural language.",
+        github: "https://github.com/KeshavSaraogi/sqldb-chat",
+        live: "https://datbase-chat.streamlit.app/",
+        image: database,
     },
     {
         title: "Document Form Manager MERN Stack",
