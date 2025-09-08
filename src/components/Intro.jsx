@@ -40,7 +40,7 @@ const Intro = () => {
                             In my free time, I love learning about AI and playing chess.
                         </p>
 
-                        <a href="./resume.pdf" download className="resume-button">
+                        <a href={process.env.PUBLIC_URL + '/KESHAV-SARAOGI.pdf'} download className="resume-button">
                             Download Resume
                         </a>
                     </div>
