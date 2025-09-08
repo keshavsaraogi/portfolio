@@ -31,13 +31,6 @@ const projectList = [
         image: reader,
     },
     {
-        title: "SQL Query Generator with Streamlit",
-        description: "A SQL query generator using Streamlit and OpenAI's Embeddings and GROQ Inference, allowing users to generate SQL queries from natural language.",
-        github: "https://github.com/KeshavSaraogi/sqldb-chat",
-        live: "https://datbase-chat.streamlit.app/",
-        image: database,
-    },
-    {
         title: "Document Form Manager MERN Stack",
         description: "A document form manager using React, NodeJS, MongoDB and Express, allowing users to create and manage forms.",
         github: "https://github.com/KeshavSaraogi/form-submission",
@@ -46,7 +39,7 @@ const projectList = [
     },
     {
         title: "Inventory Management System MERN Stack",
-        description: "An inventory management system using React, NodeJS, MongoDB and Express, allowing users to manage their inventory.",
+        description: "CURRENTLY UNDER WORK",
         github: "",
         live: "",
         image: management,
